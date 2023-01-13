@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="src/styles.css"/>
+    </head>
+
+    <body>
+    <nav class="navbar" id="nav">
+      <ul class="menu">
+        <li><a href="#Home" class="link_btn">Home</a></li>
+        <li><a href="#About_me" class="link_btn">Acerca de mi</a></li>
+        <li><a href="#My_abilities" class="link_btn">Mis habilidades</a></li>
+        <li><a href="#Experience" class="link_btn">Experiencia</a></li>
+        <li><a href="#Portfolio" class="link_btn">Portafolio</a></li>
+        <li><a href="#Contact" class="link_btn">Contacto</a></li>
+      </ul>
+
+      <div class="icon_menu_toggle" id="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <main>
+      <section class="home" id="Home">
+        <img
+          src="src/mobile/photo_mobile.png"
+          alt="sara"
+          id="personal_image_mobile"
+        />
+        <img
+          src="src/desktop/photo_desktop.png"
+          alt="sara"
+          id="personal_image_desktop"
+        />
+        <h2>Hola, soy Sara</h2>
+        <h1 class="principal_title">Diseñadora y desarrolladora web</h1>
+
+        <ul class="social_media">
+          <li>
+            <a href="https://www.linkedin.com/in/sara-ospina-6934801b2/">
+              <img
+                src="src/icons/linkedin.svg"
+                alt="Linkedin"
+                id="icon_linkedin"
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/" class="icon_btn">
+              <img
+                src="src/icons/instagram.svg"
+                alt="Instagram"
+                id="icon_instagram"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/vsospina013" class="icon_btn">
+              <img
+                src="src/icons/twitter.svg"
+                alt="Twitter"
+                id="icon_twitter"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about_me" id="About_me">
+        <h2 class="subtitle">Acerca de mí</h2>
+        <p>
+          Un gusto, me presento :)
+          <br />Soy desarrolladora de Front-end Web, estudiante porque soy muy
+          fan de estar aprendiendo, artista de teatro y
+          ambientalista. <br />Tengo 21 años y vivo en una pequeña ciudad en
+          Colombia, apasionada por el arte y la tecnologia.
+        </p>
+      </section>
+
+      <section class="vector_1_container">
+        <div class="circle_1_vector">
+          <div class="vector_1_radius">
+            <div class="radius_1_2">
+              <div class="radius_1_3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my_abilities" id="My_abilities">
+        <h2 class="subtitle">Mis habilidades</h2>
+
+        <div class="conteiner_abilities">
+          <div class="mobile">
+            <div class="mobile_circle">
+              <img src="src/icons/mobile.svg" alt="mobile" id="mobile_icon" />
+            </div>
+            <h3 class="subsection">Mobile app desing</h3>
+          </div>
+
+          <div class="motion">
+            <div class="motion_circle">
+              <img src="src/icons/motion.svg" alt="motion" id="motion_icon" />
+            </div>
+            <h3 class="subsection">Motion Desing</h3>
+          </div>
+
+          <div class="web_dev">
+            <div class="web_dev_circle">
+              <img src="src/icons/web.svg" alt="web" id="web_icon" />
+            </div>
+            <h3 class="subsection">Desarrollo Web</h3>
+          </div>
+
+          <div class="system">
+            <div class="system_circle">
+              <img src="src/icons/material.svg" alt="system" id="system_icon" />
+            </div>
+            <h3 class="subsection">Creación de sistemas de diseño</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience" id="Experience">
+        <h2 class="subtitle">Experiencia</h2>
+
+        <table class="my_experience">
+          <tr>
+            <td colspan="2" class="fila_1">
+              <h4>2016-2018</h4>
+              <h3>Visual designer<br /><span>Wizeline</span></h3>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="fila_2">
+              <h4>2018-2019</h4>
+              <h3>Product designer<br /><span>Microsoft</span></h3>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h4>2019-2021</h4>
+              <h3>UI Enginner<br /><span>Google</span></h3>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="vector_2_container">
+        <div class="circle_2_vector">
+          <div class="vector_2_radius">
+            <div class="radius_2_2">
+              <div class="radius_2_3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="Portfolio">
+        <div class="my_portfolio">
+          <h2>Portafolio</h2>
+
+          <div class="container_proyects">
+            <div class="proyec_1">
+              <img src="src/images/ejemplo 1.png" alt="proyec_1" />
+            </div>
+
+            <div class="proyec_2">
+              <img src="src/images/ejemplo 2.png" alt="proyec_2" />
+            </div>
+
+            <div class="proyec_3">
+              <img src="src/images/ejemplo 3.png" alt="proyec_3" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="contact" id="Contact">
+        <div class="my_contact">
+          <h2>Contacto</h2>
+          <div class="contact_media">
+            <ul class="icon_phone">
+              <li>
+                <a href="#">
+                  <div class="phone_circle">
+                    <img src="src/icons/phone.svg" alt="my_phone" id="phone" />
+                  </div>
+                </a>
+              </li>
+              <h3 class="subsec">Número celular</h3>
+              <h4 class="body">3042148616</h4>
+            </ul>
+
+            <ul class="icon_mail">
+              <li>
+                <a href="#">
+                  <div class="mail_circle">
+                    <img src="src/icons/mail 1.svg" alt="my_mail" id="mail" />
+                  </div>
+                </a>
+              </li>
+
+              <h3 class="subsec">Email</h3>
+              <h4 class="body">saospina099@gmail.com</h4>
+            </ul>
+          </div>
+
+          <h3>Hecho con ❤ en Academlo</h3>
+        </div>
+      </section>
+    </footer>
+
+    <script src="./src/motion.js" type="module"></script>
+    </body>
+</html>
